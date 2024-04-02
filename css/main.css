@@ -3123,10 +3123,13 @@ header .logo a {
 
 .button-section [class*="col-"] .button:first-child {
 
-	margin-right: 4rem;
+	margin-right: 0;
 
 }
 
+.academy-badge {
+    margin-top: 50px;
+}
 
 
 /**
@@ -3191,6 +3194,21 @@ header .logo a {
 
 		margin-right: 0;
 
+	}
+
+	.skills li {
+	    width: 50%;
+	    text-align: center;
+	    padding-top: 35px;
+	}
+
+	.skills {
+	    flex-wrap: wrap;
+	    margin-left: 0;
+	}
+
+	.skills i {
+		font-size: 100px;
 	}
 
 }
@@ -4993,7 +5011,7 @@ header .logo a {
 
 footer {
 
-	padding-bottom: 3rem;
+	padding: 30px 0;
 
 	font-size: 1.4rem;
 
@@ -5213,6 +5231,8 @@ footer .copyright span:last-child::after {
 
 .skills {
 
+	margin-left: 0;
+
     list-style: none;
 
     display: flex;
@@ -5266,6 +5286,18 @@ i.fab.fa-php {
 i.fab.fa-hubspot {
 
     color: #fa7820;
+
+}
+
+i.fab.fa-shopify {
+
+    color: #96bf48;
+
+}
+
+.skills .fa-github {
+
+    color: #000000;
 
 }
 
