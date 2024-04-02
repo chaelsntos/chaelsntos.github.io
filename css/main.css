@@ -3211,6 +3211,14 @@ header .logo a {
 		font-size: 100px;
 	}
 
+	#intro {
+		background-size: cover;
+
+		background-position: center;
+
+		background-attachment: initial;
+	}
+
 }
 
 @media only screen and (max-width:600px) {
@@ -5278,7 +5286,7 @@ i.fab.fa-js-square {
 
 
 i.fab.fa-php {
-    color: #8993be;
+    color: #8993be
 }
 
 
